@@ -2,9 +2,7 @@
 
 ## Description
 
-PDescription
-
-The JavaScript Code Practice Project is a simple project created to practice JavaScript coding concepts and prepare for job interviews. It consists of a set of exercises and coding challenges designed to reinforce JavaScript skills and improve problem-solving abilities.
+The JavaScript Code Practice Project is a simple project created to practice JavaScript coding concepts ( VanillaJS code refersher) and prepare for job interviews. It consists of a set of exercises and coding challenges designed to reinforce JavaScript skills and improve problem-solving abilities.
 
 The project provides a hands-on approach to learning and applying JavaScript concepts, such as variables, data types, loops, conditional statements, functions, and more. By working through the exercises and challenges, you can strengthen your understanding of JavaScript and gain confidence in writing efficient and effective code.
 
