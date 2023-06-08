@@ -39,7 +39,7 @@ Here's an example of a simple JavaScript exercise:
 function calculateSum(a, b) {
   return a + b;
 }
-console.log(calculateSum(4, 8)); // Output: 10
+console.log(calculateSum(4, 8)); // Output: 12
 ```
 
 Feel free to explore the "index.js" file for more exercises and challenges.
