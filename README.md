@@ -50,4 +50,4 @@ Contributions to this project are not currently accepted. However, you are encou
 For any questions or inquiries, feel free to contact the project creator:
 
 Email: jahideljah@gmail.com
-LinkedIn: [LinkedIn: Jahid Ejah](https://www.linkedin.com/in/jahid-eljah-b46aa6253/)
+LinkedIn: [Jahid Ejah](https://www.linkedin.com/in/jahid-eljah-b46aa6253/)
