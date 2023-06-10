@@ -12,12 +12,11 @@ The project provides a hands-on approach to learning and applying JavaScript con
 - [Usage](#usage)
 - [Examples](#examples)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Installation
 
-To use this project, simply clone the repository to your local machine: git clone https://github.com/your-username/javascript-code-practice-project.git
+To use this project, simply clone the repository to your local machine: git clone https://github.com/DevEljah/js_job_interview_codes.git
 
 ## Usage
 
