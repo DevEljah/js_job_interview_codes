@@ -36,3 +36,24 @@ function fizzBuzz() {
   return output;
 }
 console.log(fizzBuzz());
+
+/////////////////////////////////////////////
+// passed by value and passed by reference //
+/////////////////////////////////////////////
+//In JavaScript, primitive data types are passed by value
+//and non-primitive data types are passed by reference.
+
+// primitive // passed by value!
+/* let x = 2;
+let y = x;
+x = 4;
+let z = y;
+console.log(x);
+console.log(y);
+console.log(z); */
+
+// non-primitive // passed by reference!
+/* var obj1 = { name: "Max", surname: "Eljah" };
+var obj2 = obj1;
+obj1.name = "Dev";
+console.log(obj2); */
