@@ -93,7 +93,9 @@ if (a && b) {
   console.log("Code runs"); // This block runs because a && b returns "Hi" (Truthy)
 }
 
-function myFunction() {
+/////////////// debugger ///////////////////
+
+/* function myFunction() {
   var x = 5;
   // debugger; // Execution pauses here
   console.log(x);
@@ -101,4 +103,17 @@ function myFunction() {
 
 myFunction();
 
-console.log("deb");
+console.log("Anna"); */
+
+/////////////////////////////////////////////
+////////////// challenges: //////////////////
+/////////////////////////////////////////////
+
+////challenge #1////
+
+let x = {},
+  y = { name: "Max" },
+  z = { name: "John" };
+x[y] = { name: "Eljah" };
+x[z] = { name: "Dev" };
+console.log(x[y]); // output:?
