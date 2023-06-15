@@ -1,3 +1,7 @@
+body {
+  padding: 0 10% 0 10%;
+  background: #cccccc;
+}
 .title {
   color: rgb(29, 29, 180);
 }
