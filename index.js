@@ -110,7 +110,6 @@ console.log("Anna"); */
 /////////////////////////////////////////////
 
 ////challenge #1////
-
 let x = {},
   y = { name: "Max" },
   z = { name: "John" };
@@ -120,11 +119,9 @@ console.log(x[y]); // output:?
 
 ///////challenge #2/////
 ////Reverse a String////
-
 function reverseString(str) {
   return str.split("").reverse().join("");
 }
-
 console.log(reverseString("Hello, World!"));
 
 ///////challenge #3///////
@@ -133,7 +130,6 @@ function isPalindrome(str) {
   const reversed = str.split("").reverse().join("");
   return str === reversed;
 }
-
 console.log(isPalindrome("level"));
 console.log(isPalindrome("hello"));
 
@@ -143,7 +139,6 @@ function isPalindrome(str) {
   const reversed = str.split("").reverse().join("");
   return str === reversed;
 }
-
 console.log(isPalindrome("level"));
 console.log(isPalindrome("hello"));
 
@@ -157,5 +152,37 @@ function fibonacci(n) {
   }
   return sequence;
 }
-
 console.log(fibonacci(8));
+
+///////challenge #6//////
+/////Array Chunking//////
+function chunkArray(arr, size) {
+  const chunkedArray = [];
+  let index = 0;
+  while (index < arr.length) {
+    chunkedArray.push(arr.slice(index, index + size));
+    index += size;
+  }
+  return chunkedArray;
+}
+console.log(chunkArray([1, 2, 3, 4, 5, 6, 7, 8], 3));
+
+///////challenge #7////////
+////Find Missing Number////
+function findMissingNumber(nums) {
+  const n = nums.length + 1;
+  const expectedSum = (n * (n + 1)) / 2;
+  const actualSum = nums.reduce((sum, num) => sum + num, 0);
+  return expectedSum - actualSum;
+}
+console.log(findMissingNumber([1, 2, 4, 5, 6]));
+
+///////challenge #8///////
+////Capitalize Letters////
+function capitalizeLetters(str) {
+  return str
+    .split(" ")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+console.log(capitalizeLetters("hello, world!"));
