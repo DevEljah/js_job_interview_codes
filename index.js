@@ -117,3 +117,45 @@ let x = {},
 x[y] = { name: "Eljah" };
 x[z] = { name: "Dev" };
 console.log(x[y]); // output:?
+
+///////challenge #2/////
+////Reverse a String////
+
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
+
+console.log(reverseString("Hello, World!"));
+
+///////challenge #3///////
+////Palindrome Checker////
+function isPalindrome(str) {
+  const reversed = str.split("").reverse().join("");
+  return str === reversed;
+}
+
+console.log(isPalindrome("level"));
+console.log(isPalindrome("hello"));
+
+///////challenge #4///////
+////////Two Sum//////////
+function isPalindrome(str) {
+  const reversed = str.split("").reverse().join("");
+  return str === reversed;
+}
+
+console.log(isPalindrome("level"));
+console.log(isPalindrome("hello"));
+
+///////challenge #5///////
+////Fibonacci Sequence////
+function fibonacci(n) {
+  const sequence = [0, 1];
+  for (let i = 2; i < n; i++) {
+    const num = sequence[i - 1] + sequence[i - 2];
+    sequence.push(num);
+  }
+  return sequence;
+}
+
+console.log(fibonacci(8));
