@@ -196,3 +196,15 @@ function isAnagram(str1, str2) {
 }
 console.log(isAnagram("listen", "silent"));
 console.log(isAnagram("hello", "world"));
+
+//////challenge #10///////
+///////Title Case////////
+function titleCase(str) {
+  return str
+    .toLowerCase()
+    .split(" ")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+console.log(titleCase("hello, world!"));
+console.log(titleCase("i love javascript"));
